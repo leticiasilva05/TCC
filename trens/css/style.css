@@ -1,0 +1,90 @@
+/* importar fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* fonte do trem*/
+* {
+    margin-top: 0px;
+    padding: 0px;
+    margin: px;
+    font-family: 'Lora', Times;
+}
+
+body{
+    padding-top: 90px;
+    background-color: rgb(152, 211, 248);
+/*    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; esconde a barra de rolagem*/
+}
+
+  .form-div{
+    padding-top: 250px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-brand span {
+    font-size:2rem;
+    line-height:1.2;
+    font-weight: 200;
+    display:inline-block;
+    vertical-align:middle;
+    padding:0 0 0 03px;
+  }
+
+  .nav-item.pr-0 { 
+    padding-right:25px;
+    padding-left: 10px;
+ }
+
+  .navbar-brand{
+    padding-left: 20px;
+  }
+
+  .container-fluid{
+    padding: 0 !important;
+    margin-bottom: 100px;
+  }
+
+  .form-container{
+    padding-top: 96px;
+  }
+
+  .jumbotron{
+    padding: 0 !important; 
+    background: 
+linear-gradient(
+  rgba(0, 0, 250, 0.25), 
+  rgba(125, 250, 250, 0.45)
+),
+url(https://source.unsplash.com/1600x1050/?nature);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+position: center;
+color:white !important;
+height: 60vh;
+width: 220vh;
+}
+
+.btn.btn-primary{
+  font-size: large;
+}
+
+.card-text{
+  font-size: large;
+}
+
+.col{
+  margin-top: 40px;
+}
+
+.display-4{
+  margin-top: 60px;
+}
+
+/* Estilo para alterar a cor do botão quando passa o mouse sobre ele */
+.card-body a.btn-primary:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+

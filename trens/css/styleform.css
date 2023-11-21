@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lora', Times;
+}
+
+body{
+    padding-top: 150px;
+    background-color:  rgb(152, 211, 248);
+/*    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; esconde a barra de rolagem*/
+
+}
+
+  .form-div{
+    padding-top: 250px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-brand span {
+    font-size:2rem;
+    line-height:1.2;
+    font-weight: 200;
+    display:inline-block;
+    vertical-align:middle;
+    padding:0 0 0 03px;
+  }
+
+  .navbar-brand{
+    padding-left: 20px;
+  }
+
+  .nav-item.pr-0 { 
+    padding-right:25px;
+    padding-left: 10px;
+ }
+
+  .container-fluid{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 60px;
+  }
+
+  .btn.btn-primary{
+    font-size: large;
+  }  
+
+  .form-label{
+    margin-top: 10px;
+  }
+
+  .text{
+    margin-top: 20px;
+  }
+
+  .button{
+    margin-top: 10px;
+  }
+
+
+  /* blog */
+
+  .item.mb-5{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .img-fluid{
+    padding-right: 15px;
+    padding-top: 6px;
+    border-radius: 2px;
+  }
+
+  .intro{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: large;
+  }
+
+
+  /* ficha blog */
+  .blog-post{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  #img-ficha{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #title{
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  #texto{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .card {
+    border: 1px solid #ddd; /* Borda do cartão */
+    border-radius: 8px; /* Cantos arredondados */
+    overflow: hidden; /* Garante que a borda e o raio da borda se apliquem corretamente */
+    margin-bottom: 20px; /* Espaçamento inferior entre os cartões */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efeito de elevação */
+}
+
+.card-img-top {
+  width: 100%; /* Imagem ocupa 100% da largura do cartão */
+  height: auto; /* Altura automática para manter a proporção da imagem */
+}
+
+.card-body {
+  padding: 15px; /* Preenchimento interno do corpo do cartão */
+}
+
+.card-title {
+  font-size: 1.2rem; /* Tamanho da fonte do título */
+  font-weight: bold; /* Negrito para o título */
+  margin-bottom: 5px; /* Espaçamento inferior do título */
+}
+
+.especialidade {
+  color: #555; /* Cor do texto da especialidade */
+  margin-bottom: 10px; /* Espaçamento inferior da especialidade */
+}
+
+/* Estilo para o link do botão no corpo do cartão */
+.card-body a.btn-primary {
+  text-decoration: none; /* Remove sublinhado padrão do link */
+  color: #fff; /* Cor do texto do botão */
+  background-color: #007bff; /* Cor de fundo do botão */
+  padding: 8px 15px; /* Preenchimento interno do botão */
+  border-radius: 5px; /* Cantos arredondados do botão */
+  transition: background-color 0.3s; /* Efeito de transição na cor de fundo */
+}
+
+/* Estilo para alterar a cor do botão quando passa o mouse sobre ele */
+.card-body a.btn-primary:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
